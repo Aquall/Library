@@ -46,6 +46,8 @@ group :development, :test do
 
   gem 'faker'
 
+  gem 'shoulda-matchers', '~> 5.0'
+
   gem 'rubocop', require: false
 
   gem 'rubocop-performance', require: false
