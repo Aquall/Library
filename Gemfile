@@ -57,6 +57,12 @@ group :development, :test do
   gem 'rubocop-rspec', require: false
 end
 
+group :test do
+  
+  gem 'database_cleaner-active_record'
+
+end
+
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
